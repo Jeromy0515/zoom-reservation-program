@@ -1,0 +1,9 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="ZoomProject:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/ZoomProject_jar</output-path>
+    <root id="archive" name="ZoomProject.jar">
+      <element id="module-output" name="ZoomProject" />
+      <element id="extracted-dir" path="$USER_HOME$/Desktop/sqldeveloper/jdk/jre/lib/ext/jfxrt.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>
