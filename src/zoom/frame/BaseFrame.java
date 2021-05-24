@@ -17,7 +17,7 @@ import java.util.Stack;
 public abstract class BaseFrame extends JFrame {
 
     static Stack<JFrame> stack = new Stack<>();
-    static Class[] classes = {new Bigdata(),new Database(),new DataStructure(),new English(),new History(),
+    static Class[] classes = {new Bigdata(),new Database(),new DataStructure(),new Programming(),new English(),new History(),
             new Jpanese(),new Literature(),new Math(),new PE(),new Social(),new GoogleMeet()};
 
     public BaseFrame(String title,int width,int height){
