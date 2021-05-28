@@ -24,9 +24,9 @@ public class MainFrame extends BaseFrame{
 
         for (int i=0;i<classes.length;i++){
             linkPanels.add(createComponent(new LinkPanel(classes[i],
-                    classes[i].name.equals("구글미트")? "./image/googlemeetImage.png" : "./image/zoomImage.png"),0,0,100,100));
+                     classes[i].name.equals("구글미트")? "./image/googlemeetImage.png" : "./image/zoomImage.png"),0,0,100,100));
         }
- 
+
         add(buttonPanel);
         add(linkPanels);
     }
