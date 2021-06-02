@@ -34,7 +34,6 @@ public class MainFrame extends BaseFrame{
     class LinkPanel extends JPanel{
         LinkPanel(Class cls, String imageURL){
             super(new FlowLayout(FlowLayout.LEFT));
-
             JLabel image = createLabel(new JLabel(getImage(imageURL,70,70)));
 
             JLabel nameLabel = createLabel(new JLabel(cls.name));
